@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1 ><span class="gradient-text">Instagram</span></h1>
+            <input type="text" placeholder="Username" id="Username"><br>
+            <input type="password" placeholder="Password" id="password"><br>
+            <button onclick="login()">Log In</button>
+        <div class="forgot-password">
+            <a href="#">Forgot password?</a>
+        </div>
+    </div>
+
+</body>
+<script>
+    function login() {
+        const Username = document.getElementById('Username').value
+        const password = document.getElementById('password').value
+
+        console.log(Username, password);
+    }
+</script>
+</html>

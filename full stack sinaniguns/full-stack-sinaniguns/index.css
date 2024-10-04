@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.gradient-text {
+    background: linear-gradient(
+    45deg, 
+    #f09433,  
+    #e6683c,  
+    #dc2743,
+    #cc2366, 
+    #bc1888   
+    );
+    background-clip: text; 
+    color: transparent; 
+}
+.login-container {
+    background: linear-gradient(
+    45deg, 
+    rgba(240, 148, 51, 0.5),   
+    rgba(230, 104, 60, 0.5),   
+    rgba(220, 39, 67, 0.5), 
+    rgba(204, 35, 102, 0.5), 
+    rgba(188, 24, 136, 0.5)    
+    );
+        
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+}
+.login-container h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 50px;
+    color: #262626;
+}
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+.login-container button {
+    width: 371px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.forgot-password {
+    margin-top: 20px;
+}
+.forgot-password a {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+}
+.forgot-password a:hover {
+    text-decoration: underline;
+}
